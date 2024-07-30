@@ -1,12 +1,9 @@
-a = 0
-b = 2
-c = 1
+def troca(x, y):
+    aux = x
+    x = y
+    y = aux
 
-if (a > 0):
-    if (b > 0):
-        print ("Tudo ok para decolagem!")
-    else:
-        print ("Tanque principal vazio; voando com combustível reserva!")
-else:
-    if (c > 0):
-        print ("Foguete não tem piloto, mas há outros foguetes disponíveis!")
+x = 10
+y = 20
+troca (x,y)
+print("x =", x,"e y =",y)
