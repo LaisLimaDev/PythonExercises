@@ -1,9 +1,7 @@
-def troca(x, y):
-    aux = x
-    x = y
-    y = aux
-
-x = 10
-y = 20
-troca (x,y)
-print("x =", x,"e y =",y)
+x = 1
+while x < 3:
+    y = 1
+    while y < 3:
+        print(x*y, end = "\t")
+        y = y + 1
+    x = x + 1

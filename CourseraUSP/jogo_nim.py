@@ -49,7 +49,7 @@ def campeonato():
     for _ in range(3):
         print("\n**** Rodada ****\n")
         partida()
-        if vez_do_computador:
+      #  if vez_do_computador:
             placar_usuario += 1
         else:
             placar_computador += 1
